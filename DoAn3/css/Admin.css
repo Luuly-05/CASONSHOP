@@ -1,0 +1,73 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+
+}
+
+.user {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo span {
+    margin-left: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+}
+.container .nav {
+    width: 100%;
+    background-color: #d1cdcd;
+}
+
+    .nav .nav-list {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        padding: 0 120px;
+        margin: 0;
+        grid-gap: 20px;
+        width: 100%;
+    }
+
+.nav-item {
+    border-right: 1px solid white;
+    padding-right: 10px;
+    padding: 15px 0;
+    padding-right: 10px;
+}
+
+    .nav-item a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+    }
+
+.header-container {
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.admin-image-product {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

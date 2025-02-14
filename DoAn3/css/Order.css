@@ -1,0 +1,23 @@
+﻿.manage-order-container {
+    padding: 0 120px;
+    margin-top: 30px;
+}
+
+.manage-order-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .manage-order-heading h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+.delete {
+    text-decoration: none;
+    background-color: #dc3545;
+    color: black;
+    padding: 6px 20px;
+    border-radius: 5px;
+}

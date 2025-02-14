@@ -1,0 +1,155 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header-container {
+    width: 100%;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+    .logo i {
+        font-size: 18px;
+    }
+
+.user {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo span {
+    margin-left: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.search {
+    position: relative;
+}
+
+    .search input {
+        width: 100%;
+        margin-right: 30px;
+        padding: 6px 10px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+    }
+
+    .btnSearch svg {
+        color: #fff;
+    }
+
+.homepage-container {
+    width: 100%;
+    background-color: #f1ecec;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    padding-top: 30px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.banner-list {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.banner2 {
+    margin-top: 10px;
+}
+
+.homepage-content {
+    margin-top: 30px;
+}
+
+.content-list {
+    margin: 0;
+}
+
+.content-heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d68787;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+    .content-heading h3 {
+        margin: 0;
+    }
+    .content-heading a {
+        text-decoration: none;
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+
+.product-item {
+    background-color: white;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    min-height: 280px;
+}
+
+.image-product img {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.description-product {
+    flex-grow: 1;
+    min-height: 1.75rem;
+    margin: 5px 6px;
+}
+
+    .description-product span {
+        overflow-wrap: break-word;
+        white-space: normal;
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+.price-product {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 6px;
+}
+
+    .price-product .price {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 18px;
+        color: rgb(238, 77, 45);
+    }
+
+    .price-product .quanlity {
+        font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+    }
+.product-link {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,128 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+.login-header {
+    padding: 0 120px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.login-content {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d68787;
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+}
+
+    .login-content row {
+        background-color: #d68787;
+    }
+
+    .login-logo {
+        display: flex;
+        align-items: center;
+    }
+
+.name-shop {
+    color: #ee4d2d;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.information {
+    margin: 0 10px;
+}
+
+
+.information span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.information .register {
+    padding-right: 10px;
+    border-right: 1px solid gray;
+    color: black;
+}
+
+
+.login-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+    .login-content-left i {
+        color: white;
+        font-size: 40px;
+    }
+    .login-content-name-shop {
+        color: white;
+        font-weight: 600;
+        margin-top: 15px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+.login-content-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.form-register {
+    width: 400px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 354px;
+}
+
+    .form-register .heading {
+        font-size: 20px;
+        font-weight: 600;
+    text-align: center;
+}
+    .register-item {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+    }
+
+.register-item input {
+    width: 100%;
+    padding: 6px 10px;
+    margin-top: 5px;
+}
+
+.btn-submit {
+    margin: 20px 0 20px 261px;
+    background-color: #d68787;
+    color: white;
+}
+
+.create-user-success {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.create-user-error {
+    color: red;
+    font-weight: bold;
+}
+.my-3 {
+    margin: 20px 0 20px 261px;
+    text-align: right
+}
